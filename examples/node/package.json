@@ -1,0 +1,10 @@
+{
+  "name": "fusionproxy-node-examples",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "https-proxy-agent": "^7.0.5",
+    "undici": "^6.19.0"
+  }
+}
