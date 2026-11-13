@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://fusionproxy.net/?utm_source=github&utm_medium=fusionproxy">
+  <a href="https://fusionproxy.net/?utm_source=github&utm_medium=referral&utm_campaign=fusionproxy">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FusionProxies/.github/main/assets/logo-on-dark.png">
       <img src="https://raw.githubusercontent.com/FusionProxies/.github/main/assets/logo-on-light.png" alt="Fusion Proxy" height="52">
@@ -9,7 +9,7 @@
 
 # Fusion Proxy: residential proxy code examples
 
-How to connect to [Fusion Proxy](https://fusionproxy.net/?utm_source=github&utm_medium=fusionproxy) residential proxies, with working examples in cURL, Python, Node.js, Go, PHP, Java, C# and Ruby. Every example reads your credentials from environment variables and prints the exit IP and country it got.
+How to connect to [Fusion Proxy](https://fusionproxy.net/?utm_source=github&utm_medium=referral&utm_campaign=fusionproxy) residential proxies, with working examples in cURL, Python, Node.js, Go, PHP, Java, C# and Ruby. Every example reads your credentials from environment variables and prints the exit IP and country it got.
 
 ## Contents
 
@@ -23,7 +23,7 @@ How to connect to [Fusion Proxy](https://fusionproxy.net/?utm_source=github&utm_
 
 ## How it works
 
-1. [Create an account](https://dashboard.fusionproxy.net/#/register?utm_source=github&utm_medium=fusionproxy) and add residential traffic. Traffic never expires.
+1. [Create an account](https://dashboard.fusionproxy.net/#/register?utm_source=github&utm_medium=referral&utm_campaign=fusionproxy) and add residential traffic. Traffic never expires.
 2. Copy your proxy username and password from the dashboard (or create a sub-user).
 3. Send requests through `resi.fusionproxy.net`. Location and session options go into the username, so one endpoint covers every country.
 
@@ -53,7 +53,7 @@ USERNAME-country-us-state-ca-city-losangeles-sessid-4821937-sessTime-600s
 | `-sessid-ID` | `-sessid-4821937` | Session ID: the same ID keeps the same IP |
 | `-sessTime-Ns` | `-sessTime-600s` | How long a session holds its IP, 1 to 120 minutes, in seconds |
 
-The [endpoint generator](https://fusionproxy.net/guides/endpoint-generator?utm_source=github&utm_medium=fusionproxy) in the dashboard builds these usernames for you and lists the states and cities in stock.
+The [endpoint generator](https://fusionproxy.net/guides/endpoint-generator?utm_source=github&utm_medium=referral&utm_campaign=fusionproxy) in the dashboard builds these usernames for you and lists the states and cities in stock.
 
 > Do not use a hyphen inside a sub-user name. Everything after the first hyphen is read as options, so `team-alpha` is read as `team` plus an unknown option and the proxy answers `407`.
 
@@ -111,15 +111,15 @@ Step-by-step guides: [Python requests](https://github.com/FusionProxies/python-r
 | Exit IP in the wrong country | The option is missing from the username, or the client sends DNS locally (use `socks5h://`) |
 | Timeouts on one site only | The site is slow or blocks the request; try another session ID or country |
 
-To check a proxy from the browser, use the free [proxy checker](https://fusionproxy.net/tools/proxy-checker?utm_source=github&utm_medium=fusionproxy) and [what is my IP](https://fusionproxy.net/tools/my-ip?utm_source=github&utm_medium=fusionproxy) tools.
+To check a proxy from the browser, use the free [proxy checker](https://fusionproxy.net/tools/proxy-checker?utm_source=github&utm_medium=referral&utm_campaign=fusionproxy) and [what is my IP](https://fusionproxy.net/tools/my-ip?utm_source=github&utm_medium=referral&utm_campaign=fusionproxy) tools.
 
 ## Links
 
-- [Quick start guide](https://fusionproxy.net/guides/quick-start?utm_source=github&utm_medium=fusionproxy)
-- [All guides](https://fusionproxy.net/guides?utm_source=github&utm_medium=fusionproxy)
-- [Pricing](https://fusionproxy.net/pricing?utm_source=github&utm_medium=fusionproxy)
-- [Free trial](https://fusionproxy.net/free-trial?utm_source=github&utm_medium=fusionproxy)
-- [Contact](https://fusionproxy.net/contact?utm_source=github&utm_medium=fusionproxy)
+- [Quick start guide](https://fusionproxy.net/guides/quick-start?utm_source=github&utm_medium=referral&utm_campaign=fusionproxy)
+- [All guides](https://fusionproxy.net/guides?utm_source=github&utm_medium=referral&utm_campaign=fusionproxy)
+- [Pricing](https://fusionproxy.net/pricing?utm_source=github&utm_medium=referral&utm_campaign=fusionproxy)
+- [Free trial](https://fusionproxy.net/free-trial?utm_source=github&utm_medium=referral&utm_campaign=fusionproxy)
+- [Contact](https://fusionproxy.net/contact?utm_source=github&utm_medium=referral&utm_campaign=fusionproxy)
 
 ## License
 
